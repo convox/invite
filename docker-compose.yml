@@ -1,0 +1,6 @@
+main:
+  build: .
+  environment:
+    - SLACK_TOKEN
+  ports:
+  - 80:3000
