@@ -3,4 +3,5 @@ main:
   environment:
     - SLACK_TOKEN
   ports:
-  - 80:3000
+  - "80:3000"
+  - "443:3000"
