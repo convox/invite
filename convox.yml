@@ -1,6 +1,6 @@
 services:
   main:
-    certificate: ${HOST}
+    domain: ${HOST}
     environment:
       - SLACK_TOKEN
     port: 3000
